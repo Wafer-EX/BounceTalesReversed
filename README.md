@@ -28,6 +28,11 @@ This is a reverse-engineered Bounce Tales, which supports saving progress, play 
 - Java Development Kit 17
 - ~256 MB free RAM
 
+### Example
+This is with an original resources:
+
+![image](https://user-images.githubusercontent.com/76843479/210387814-ee0cd634-4808-43b2-b5b8-aee1bcede050.png)
+
 ## Build
 At first you should copy the resource files to `src/main/resources` folder. Then after input of these commands Bounce Tales will be builded at `build/libs` directory.
 
