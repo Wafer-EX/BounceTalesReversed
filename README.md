@@ -1,6 +1,8 @@
 # Reverse-engineered Bounce Tales
+
 ## Overview
 This is a reverse-engineered Bounce Tales, which supports saving progress, play MIDI and etc. It's **NOT** include any resource files, I don't have rights, all rights reserved to Microsoft Corporation.
+
 ### Missing resources
 |files|description|
 |:-------------:|:------------------:|
@@ -10,6 +12,11 @@ This is a reverse-engineered Bounce Tales, which supports saving progress, play 
 |`lang.en-US`, `lang.ru-RU`, etc.|Localization files for your language|
 |`a`, `b`, `be`, `bf`, `bg`, `bh`, `bi`, `bj`, `bk`, `bl`, `bm`, `bn`, `bo`, `bp`, `bq`, `br`, `bs`, `bt`, `bu`, `bv`|Undefined files (levels?)|
 |`META-INF/MANIFEST.MF`|Manifest file, will be overpal by generated manifest|
+
+### Requirements
+- Java Development Kit 17
+- ~256 MB free RAM
+
 ## Build
 At first you should copy the resource files to `src/main/resources` folder. Then after input of these commands Bounce Tales will be builded at `build/libs` directory.
 
