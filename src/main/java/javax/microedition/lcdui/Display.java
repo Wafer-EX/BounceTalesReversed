@@ -18,6 +18,7 @@ package javax.microedition.lcdui;
 
 import com.nokia.mid.ui.FullCanvas;
 
+import javax.imageio.ImageIO;
 import javax.microedition.midlet.MIDlet;
 import javax.swing.*;
 import java.awt.*;
@@ -88,6 +89,17 @@ public class Display {
         frame.setResizable(false);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setTitle("Bounce Tales");
+
+        try {
+            var iconStream = Image.class.getResourceAsStream("/icon.png");
+            if (iconStream != null) {
+                var icon = ImageIO.read(iconStream);
+                frame.setIconImage(icon);
+            }
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
 
         frame.pack();
         frame.revalidate();
