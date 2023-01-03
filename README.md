@@ -9,3 +9,15 @@ This is a reverse-engineered Bounce Tales, which supports saving progress, play 
 |`aw.mid`, `ax.mid`, `ay.mid`, `az.mid`, `ba.mid`, `bb.mid`, `bc.mid`, `bd.mid`|Audio files|
 |`lang.en-US`, `lang.ru-RU`, etc.|Localization files for your language|
 |`a`, `b`, `be`, `bf`, `bg`, `bh`, `bi`, `bj`, `bk`, `bl`, `bm`, `bn`, `bo`, `bp`, `bq`, `br`, `bs`, `bt`, `bu`, `bv`|Undefined files (levels?)|
+|`META-INF/MANIFEST.MF`|Manifest file, will be overpal by generated manifest|
+## Build
+At first you should copy the resource files to `src/main/resources` folder. Then after input of these commands Bounce Tales will be builded at `build/libs` directory.
+
+Windows:
+```
+gradlew.bat build
+```
+Linux:
+```
+./gradlew build
+```
