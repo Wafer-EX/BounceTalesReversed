@@ -31,7 +31,7 @@ This is a reverse-engineered Bounce Tales, which supports saving progress, play 
 ### Example
 This is with an original resources:
 
-![image](https://user-images.githubusercontent.com/76843479/210388152-fe8e135e-b8d7-4139-88db-83c74e15998a.png)
+![image](https://user-images.githubusercontent.com/76843479/210391170-95a3bf15-d302-4e7d-8a6f-936ba2963236.png)
 
 ## Build
 At first you should copy the resource files to `src/main/resources` folder. Then after input of these commands Bounce Tales will be builded at `build/libs` directory.
