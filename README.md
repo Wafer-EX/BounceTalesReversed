@@ -45,4 +45,4 @@ Linux:
 ./gradlew build
 ```
 ## License
-Copyright 2022 Kirill Lomakin. The source code is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for the full license text. All rights of Bounce Tales reserved to Microsoft Corporation. Notice: this software include a [Hangar Emulator](https://github.com/Lisowolf/HangarEmulator) part.
+Copyright 2022-2023 Kirill Lomakin. The source code is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for the full license text. All rights of Bounce Tales reserved to Microsoft Corporation. Notice: this software include a [Hangar Emulator](https://github.com/Lisowolf/HangarEmulator) part.
